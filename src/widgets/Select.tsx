@@ -15,7 +15,7 @@ const onChangedPassthrough = props => event => {
 };
 
 export const FabricSelect: React.StatelessComponent<WidgetProps> = props => {
-  const options = props.options as Options;
+  const options = props.options as unknown as Options;
   return (
     <ComboBox
       selectedKey={props.value}

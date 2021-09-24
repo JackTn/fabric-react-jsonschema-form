@@ -1,6 +1,6 @@
 {
   "name": "@azure/fabric-react-jsonschema-form",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Fabric components for react-jsonschema-form",
   "main": "bin/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@types/enzyme": "^3.1.13",
     "@types/jest": "^23.3.2",
-    "@types/react-jsonschema-form": "^1.0.9",
+    "@types/react-jsonschema-form": "^1.7.6",
     "jest": "^23.6.0",
     "jest-junit": "^5.1.0",
     "prettier": "^1.14.3",
